@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin="">
+    </script>
+</head>
+<body>
+    <header class="header">
+             <ul>
+                 <li class="imagesheader"><a class="logolink" href="index.html"><span class="logoimage"><img class="svgimage1" src="images/logo.svg" alt=""></span></a></li>
+                      <li><a href="index.html">Телефоны</a></li>
+                      <li><a href="#">Ноутбуки</a></li>
+                      <li><a href="#">Наушники</a></li>
+                      <li><a href="#">Аксессуары</a></li>
+                 <li class="imagesheader"><a class="logolink" href="index.html"><span class="logoimage"><img class="svgimage2" src="images/basket.svg" alt=""></span></a></li>
+            </ul>
+        </header>
+     <div class="main-image">
+         <div class="content">
+             <p class="first-part">Представляем.</p>
+             <p class="second-part">iPhone 16</p>
+             <button class="buy-button">Купить</button>
+         </div>
+     </div>
+     <div class="wrapper">
+            <div class="all-products"><p></p>Все товары.</div>
+            <div class="container-c">
+                <div class="element">
+                    <div class="grid-content">
+                           <p class="name">iPhone 16</p>
+                           <div class="picture"><img src="images/iphone16_1.svg" class="img-card" alt=""></div>
+                           <p class="price">78 999р</p>
+                           <div class="interactive">
+                               <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                               <button class="buy">Купить</button>
+                           </div>
+                       </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">iPhone 16 Pro</p>
+                        <div class="picture"><img src="images/iphonepro.svg" class="img-card" alt=""></div>
+                        <p class="price">119 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">iPhone 15 Plus</p>
+                        <div class="picture"><img src="images/iphone15.svg" class="img-card" alt=""></div>                    
+                        <p class="price">88 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">MacBook Pro 14/16</p>
+                        <div class="picture"><img src="images/macbook1.svg" class="img-card" alt=""></div>                    
+                        <p class="price">138 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">iMac 24</p>
+                        <div class="picture"><img src="images/imac.svg" class="img-card" alt=""></div>                    
+                        <p class="price">127 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">iPad Pro 11/13</p>
+                        <div class="picture"><img src="images/ipadpro.svg" class="img-card" alt=""></div>
+                        <p class="price">110 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">iPad Air 11/13</p>
+                        <div class="picture"><img src="images/ipadair.svg" class="img-card" alt=""></div>
+                        <p class="price">89 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="element">
+                    <div class="grid-content">
+                        <p class="name">Apple Watch Series 10</p>
+                        <div class="picture"><img src="images/applewatch.svg" class="img-card" alt=""></div>
+                        <p class="price">48 999р</p>
+                        <div class="interactive">
+                            <span><img src="images/Star_1.svg" class="favorite" alt=""></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="main-image-watch">
+            <div class="content">
+                <p class="first-part">Совершенно новые</p>
+                <p class="second-part">Apple Watch Series 10</p>
+                <button class="buy-button-watch" style="background: none; color: #016FDF;">Узнать больше</button>
+                <button class="buy-button-watch">Купить</button>
+            </div>
+        </div>
+
+        <div class="main-image-headphones">
+            <div class="content">
+                <p class="first-part">Обновленные</p>
+                <p class="second-part">Airpods Pro</p>
+                <button class="buy-button-headphones">Купить</button>
+            </div>
+        </div>
+
+        <div class="main-image-students">
+            <div class="content content-students">
+                <p class="second-part">Cкидки до 30% студентам на компьютеры Mac</p>
+                <button class="buy-button-students"><a href="sale.html" style="text-decoration: none; color: white;" target="_blank">Подробнее</a></button>
+            </div>
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="logo-footer"><img src="images/logo.svg" alt=""></div>
+                <div class="text-footer">
+                    <p>Покупателям</p>
+                    <ul>
+                        <li><a href="">Подарочные карты</a></li>
+                        <li><a href="">Хранение покупок</a></li>
+                        <li><a href="">Безопасность в Интернете</a></li>
+                        <li><a href="">Акции и скидки</a></li>
+                        <li><a href="">Доставка</a></li>
+                        <li><a href="">Кредит и рассрочка</a></li>
+                    </ul>
+                </div>
+                <div class="text-footer">
+                    <p>О компании</p>
+                    <ul>
+                        <li><a href="">Политика компании</a></li>
+                        <li><a href="">Рекомендательные технологии</a></li>
+                        <li><a href="">Экологические инициативы</a></li>
+                        <li><a href="">Благотворительный фонд</a></li>
+                        <li><a href="">Пресс-центр</a></li>
+                        <li><a href="">Ребрендинг</a></li>
+                    </ul>
+                </div>
+                <div class="text-footer-networks">
+                    <p>Мы в соцсетях</p>
+                    <ul>
+                        <li class="network"><a href=""><img src="images/vk.svg" alt=""></a></li>
+                        <li class="network"><a href=""><img src="images/tg.svg" alt=""></a></li>
+                        <li class="network"><a href=""><img src="images/yt.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer-button">
+                    <span><a href=""><button class="footer-mapbutton">Карта магазинов</button></a></span>
+                    <div id="map"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+    </script>
+    
+</body>
+</html>
+
