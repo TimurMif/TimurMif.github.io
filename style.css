@@ -397,7 +397,7 @@ li {
 .main-image-headphones {
     margin-top: 5%;
     background: url("images/airpod_main.svg"), linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%);
-    background-attachment: fixed;
+/*     background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -426,7 +426,7 @@ li {
 
 
 .main-image-headphones img {
-/*     position: fixed */
+    position: fixed
 }
 
 
