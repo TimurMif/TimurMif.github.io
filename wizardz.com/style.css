@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	overflow-x: hidden;
+}
+
+section {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:40px 50px ;
+}
+
+.part2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+nav h1 i {
+	display: inline-block;
+	rotate: 45deg;
+	font-size: 36px;
+}
+
+nav h1 {
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+nav h4 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+nav button {
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid #000;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.center {
+	height: 70%;
+	width: 100%;
+	display: flex;
+	padding: 70px;
+}
+
+.center-part1 {
+	height: 100%;
+	width: 50%;
+}
+
+.center-part2 {
+	height: 100%;
+	width: 50%;
+}
+
+.center-part1 h1{
+	line-height: 1.2;
+	font-size: 70px;
+}
+
+.center-part1 p {
+	font-size: 24px;
+	width: 95%;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.center-part1 button {
+	background-color: #000;
+	color: #fff;
+	border-radius: 10px;
+	padding: 18px 32px;
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.center-part2 {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.center-part2 img {
+	height: 100%;
+	width: auto;
+}
+
+.section1-bottom {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 30px 70px;
+}
+
+.section1-bottom img {
+	height: 40px;
+}
+
+.section2 {
+	height: fit-content;
+}
+
+.section2 .services {
+	margin-top: 100px;
+	padding: 40px 70px;
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.services h3 {
+	background-color: greenyellow;
+	font-weight: 500;
+	padding: 10px 10px;
+	border-radius: 5px;
+	font-size: 60px;
+}
+
+.services p {
+	width: 40%;
+	font-size: 24px;
+}
+
+.container {
+	height: fit-content;
+	width: 100%;
+	padding: 40px 70px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.elem {
+	margin-top: 30px;
+	flex-shrink: 0;
+	height: 360px;
+	width: 48%;
+	border: 2px solid #000;
+	border-radius: 30px;
+	box-shadow: 0px 15px 0px rgb(0, 0, 0);
+	padding: 30px;
+	display: flex;
+}
+
+.elem.green {
+	box-shadow: 0px 15px 0px rgb(0, 0, 0);
+	background-color: greenyellow;
+}
+
+.elem.green h2 {
+	color: #000;
+	background-color: #fff;
+}
+
+.elem-part1 {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.elem-part1 h2 {
+	display: inline;
+	font-size: 30px;
+	background-color: greenyellow;
+}
+
+.elem-part1 h4 {
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 20px;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.elem-part1 h4 i {
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.elem-part2 {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.elem-part2 img {
+	width: 100%;
+}
+
+footer {
+	font-weight: 500;
+	height: 10%;
+	color: #fff;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-footer span {
+	color: #000;
+	font-weight: 600;
+	padding: 1px 4px;
+	background-color: greenyellow;
+}
+
+footer {
+	text-align: center;
+}
